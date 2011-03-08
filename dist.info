@@ -47,7 +47,7 @@ depends = {
 	"penglight>=0.8.4", -- Old
 	"gzio>=0.9.0", -- OK
 	"luars232>=1.0.0", -- Missing
-	"lemock>=0.6", -- Missing
+	"lemock>=0.6", -- OK
 	"luarocks>=2.0.2", -- Missing
 	"oil>=0.5" -- OK
 }
