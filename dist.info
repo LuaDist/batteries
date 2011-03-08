@@ -1,9 +1,9 @@
 --- This file is part of LuaDist project
 
-name = "lfw"
+name = "batteries"
 version = "0.1"
 
-desc = "Lua for Windows metapackage"
+desc = "Lua Batteries. A meta package modeled after Lua for Windows distribution."
 author = "none"
 license = "MIT"
 maintainer = "Peter Drahos"
