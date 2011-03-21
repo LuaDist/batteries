@@ -4,50 +4,53 @@ name = "batteries"
 version = "0.1"
 
 desc = "Lua Batteries. A meta package modeled after Lua for Windows distribution."
-author = "none"
+author = "N/A"
 license = "MIT"
 maintainer = "Peter Drahos"
+url = "http://groups.google.com/group/luaforwindows"
 
 depends = {
-	"alien>=0.4.1", -- LibFFI Crashes
-	"iup>=3.2.0", -- Needs update
-	"cd>=5.3.0", -- OK
-	"im>=3.6.0", -- Needs update
-	"luaex", -- OK
-	"lpeg>=0.9", -- OK
-	"luagd>=2.9.33r2", -- DEP: GD
-	"luacom>=1.4", -- PROBLEM
-	"luacurl>=1.0", -- DEP: Curl
-	"luadate>=2", -- OK
-	"luadoc>=3.01", -- OK
-	"luaexpat>1.1.0", -- OK
-	"luafilesystem>=1.4.2", -- OK
-	"lualogging>=1.1.4", -- OK
-	"luaprofiler>2.0.1", -- OK
-	"luasocket>=2.0.2", -- OK
-	"luasql>=2.1.1", -- It is fragmented per driver, need to supply deps
-	"luaunit>=1.3", -- OK
-	"luazip>=1.2.3", -- OK
-	"lua-stdlib>=15", -- Fails
-	"lrexlib>=2.2", -- Fails but all deps are ok
-	"md5>=1.1.2", -- OK
-	"copas>=1.1.5", -- OK
-	"coxpcall>=1.13", -- OK
-	"rings>=1.2.2", -- OK
-	"loop>=2.3beta", -- OK
-	"luatask>=1.6.4", -- OK
-	"luainterface>=1.5.3", -- Missing
-	"wxlua>=2.8.10", -- DEP: wxWidgets
-	"vstruct>=1.0.2", -- Missing
-	"luabitop>=1.0.1", -- OK
-	"luaxml>=1.3", -- OK
-	"lanes>=2.0.4", -- Old, Fails
-	"metalua>=0.5-rc1", -- Missing
-	"luagl>=1.3", -- Fails
-	"penglight>=0.8.4", -- Old
-	"gzio>=0.9.0", -- OK
-	"luars232>=1.0.0", -- Missing
-	"lemock>=0.6", -- OK
-	"luarocks>=2.0.2", -- Missing
-	"oil>=0.5" -- OK
+	Windows = {
+	  "luagd>=2.9.33r2",
+	  "luacom>=1.4",
+  	-- "luainterface>=1.5.3", -- Ticket #16
+  },
+	"luaex",
+	"lpeg>=0.9",
+	"luadate>=2",
+	"luadoc>=3.01",
+	"luaexpat>1.1.0",
+	"luafilesystem>=1.4.2",
+	"lualogging>=1.1.4",
+	"luaprofiler>2.0.1",
+	"luasocket>=2.0.2",
+	"luasql>=2.1.1",
+	"luaunit>=1.3",
+	"luazip>=1.2.3",
+	"lua-stdlib>=15",
+	"lrexlib>=2.2",
+	"md5>=1.1.2",
+	"copas>=1.1.5",
+	"coxpcall>=1.13",
+	"rings>=1.2.2",
+	"loop>=2.3beta",
+	"luatask>=1.6.4",
+	"vstruct>=1.0.2",
+	"luabitop>=1.0.1",
+	"luaxml>=1.3",
+	"lanes>=2.0.4",
+	"luagl>=1.3",
+	"penglight>=0.8.4",
+	"gzio>=0.9.0",
+	"lemock>=0.6",
+	"oil>=0.5",
+	-- "alien>=0.4.1", Ticket #23
+	-- "iup>=3.2.0", Ticket #6
+	-- "cd>=5.3.0", Ticket #6
+	-- "im>=3.6.0", Ticket #6
+	-- "luacurl>=1.0", Ticket #20
+	-- "wxlua>=2.8.10", Ticket #15
+	-- "metalua>=0.5-rc1", Ticket #11
+	-- "luars232>=1.0.0", Ticket #9
+	-- "luarocks>=2.0.2", Ticket #8
 }
