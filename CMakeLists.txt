@@ -5,6 +5,7 @@
 # Please note that the package source code is licensed under its own license.
 
 project ( batteries NONE )
+cmake_minimum_required ( VERSION 2.6 )
 
 # Just a metapackage, message the user
 add_custom_target ( install
