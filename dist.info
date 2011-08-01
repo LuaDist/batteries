@@ -1,7 +1,7 @@
 --- This file is part of LuaDist project
 
 name = "batteries"
-version = "0.4"
+version = "0.5"
 
 desc = "Lua Batteries. A meta package modeled after LuaForWindows distribution."
 author = "N/A"
@@ -15,11 +15,13 @@ depends = {
 		"luacom>=1.4",
 		"luainterface>=1.5.3",
 		"iuplua>=3.2.0",
+		"wxlua>=2.8.10.0",
 	},
 	Linux = {
 		"iuplua>=3.2.0",
+		"wxlua>=2.8.10.0",
 	},
-	"luaex",
+	"luaex>=20091018",
 	"lpeg>=0.9",
 	"luadate>=2",
 	"luadoc>=3.0.1",
@@ -28,7 +30,10 @@ depends = {
 	"lualogging>=1.1.4",
 	"luaprofiler>2.0.1",
 	"luasocket>=2.0.2",
---	"luasql>=2.1.1",
+	"luasql-sqlite3>=2.1",
+	"luasql-mysql>=2.1",
+	"luasql-postgresql>=2.1",
+	"luasql-odbc>=2.1",
 	"luaunit>=1.3",
 	"luazip>=1.2.3",
 	"lua-stdlib>=15",
@@ -48,10 +53,9 @@ depends = {
 	"gzio>=0.9.0",
 	"lemock>=0.6",
 	"oil>=0.5",
---	"alien>=0.4.1",
+	"alien>=0.4.1",
 	"luacurl>=1.0",
---	"wxlua>=2.8.10",
 	"metalua>=0.5",
 	"librs232>=1.0.0", -- Contains luars232 too
---	"luarocks>=2.0.2",
+	"luarocks>=2.0.2",
 }
