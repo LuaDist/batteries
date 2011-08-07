@@ -13,7 +13,7 @@ url = "http://groups.google.com/group/luaforwindows"
 
 depends = {
 	Windows = {
-		"luagd>=2.9.33r2",
+		"luagd>=2.0.33r2",
 		"luacom>=1.4",
 --		"luainterface>=1.5.3",
 		"iuplua>=3.2.0",
