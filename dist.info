@@ -1,7 +1,9 @@
 --- This file is part of LuaDist project
 
 name = "batteries"
-version = "0.7"
+version = "0.8"
+arch = "Universal"
+type = "all"
 
 desc = "Lua Batteries. A meta package modeled after LuaForWindows distribution."
 author = "N/A"
