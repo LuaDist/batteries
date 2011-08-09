@@ -21,10 +21,10 @@ depends = {
 		"luasql-mysql>=2.1",
 --		"luasql-postgresql>=2.1",
 	},
-	Linux = {
-		"iuplua>=3.2.0",
-		"wxlua>=2.8.10.0",
-	},
+--	Linux = {
+--		"iuplua>=3.2.0",
+--		"wxlua>=2.8.10.0",
+--	},
 	"luaex>=20091018",
 	"lpeg>=0.9",
 	"luadate>=2",
