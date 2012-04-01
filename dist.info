@@ -37,7 +37,7 @@ depends = {
 	"luaprofiler>2.0.1",
 	"luasocket>=2.0.2",
 	"luasql-sqlite3>=2.1",
-	"luasql-odbc>=2.1",
+--	"luasql-odbc>=2.1", -- Fails on Linux (no unix-odbc in repo yet)
   "luasql-postgresql>=2.1",
 	"luasql-mysql>=2.1",
 	"luaunit>=1.3",
