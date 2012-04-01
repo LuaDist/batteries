@@ -1,4 +1,8 @@
-Lua Batteries. A meta package modeled after LuaForWindows distribution.
+Lua Batteries
+=============
 
-For discussion related to LuaForWindows, LuaDist batteries and LuaRocks see:
-http://groups.google.com/group/luaforwindows
+[![Build Status](https://secure.travis-ci.org/LuaDist/batteries.png?branch=master)](http://travis-ci.org/LuaDist/batteries)
+
+
+A meta package modeled after (LuaForWindows)[http://groups.google.com/group/luaforwindows] distribution.
+

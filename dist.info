@@ -2,13 +2,11 @@
 
 name = "batteries"
 version = "0.9"
-arch = "Universal"
-type = "all"
 
 desc = "Lua Batteries. A meta package modeled after LuaForWindows distribution."
 author = "N/A"
 license = "MIT"
-maintainer = "Peter Drahos"
+maintainer = "Peter Drahoš"
 url = "http://groups.google.com/group/luaforwindows"
 
 depends = {
@@ -21,12 +19,14 @@ depends = {
 --		"luainterface>=1.5.3",
 	},
 	
+
 -- Following Linux installation needs testing for 1.0 release
 --	Linux = {
 --		"iuplua>=3.2.0",
 --		"wxlua>=2.8.10.0",
 --	},
-  -- Modules available on all platforms
+
+-- Modules available on all platforms
 	"luaex>=20091018",
 	"lpeg>=0.9",
 	"luadate>=2",
