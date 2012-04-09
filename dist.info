@@ -1,7 +1,7 @@
 --- This file is part of LuaDist project
 
 name = "batteries"
-version = "0.9"
+version = "0.9.1"
 
 desc = "Lua Batteries. A meta package modeled after LuaForWindows distribution."
 author = "N/A"
@@ -10,58 +10,59 @@ maintainer = "Peter Drahoš"
 url = "http://groups.google.com/group/luaforwindows"
 
 depends = {
-	Windows = {
-		"luagd>=2.0.33r2",
-		"luacom>=1.4",
-		"iuplua>=3.2.0",
-		"wxlua>=2.8.10.0",
+  Windows = {
+    "luagd>=2.0.33r2",
+    "luacom>=1.4",
+    "iuplua>=3.2.0",
+    "wxlua>=2.8.10.0",
 -- LuaInterface needs to be added for 1.0 release
---		"luainterface>=1.5.3",
-	},
-	
+--    "luainterface>=1.5.3",
+  },
+  
 
 -- Following Linux installation needs testing for 1.0 release
---	Linux = {
---		"iuplua>=3.2.0",
---		"wxlua>=2.8.10.0",
---	},
+--  Linux = {
+--    "iuplua>=3.2.0",
+--    "wxlua>=2.8.10.0",
+--  },
 
 -- Modules available on all platforms
-	"luaex>=20091018",
-	"lpeg>=0.9",
-	"luadate>=2",
-	"luadoc>=3.0.1",
-	"luaexpat>=1.1.0",
-	"luafilesystem>=1.4.2",
-	"lualogging>=1.1.4",
-	"luaprofiler>2.0.1",
-	"luasocket>=2.0.2",
-	"luasql-sqlite3>=2.1",
---	"luasql-odbc>=2.1", -- Fails on Linux (no unix-odbc in repo yet)
+--  "lua-apr>=0.22" -- needs dependencies
+  "luaex>=20091018",
+  "lpeg>=0.9",
+  "luadate>=2",
+  "luadoc>=3.0.1",
+  "luaexpat>=1.1.0",
+  "luafilesystem>=1.4.2",
+  "lualogging>=1.1.4",
+  "luaprofiler>2.0.1",
+  "luasocket>=2.0.2",
+  "luasql-sqlite3>=2.1",
+--  "luasql-odbc>=2.1", -- Fails on Linux (no unix-odbc in repo yet)
   "luasql-postgresql>=2.1",
-	"luasql-mysql>=2.1",
-	"luaunit>=1.3",
-	"luazip>=1.2.3",
-	"lua-stdlib>=15",
-	"lrexlib>=2.2",
-	"md5>=1.1.2",
-	"copas>=1.1.5",
-	"coxpcall>=1.13",
-	"rings>=1.2.2",
-	"loop>=2.3beta",
-	"luatask>=1.6.4",
-	"vstruct>=1.0.2",
-	"luabitop>=1.0.1",
-	"luaxml>=1.3",
-	"lanes>=2.0.4",
-	"luagl>=1.3",
-	"penlight>=0.8.4",
-	"gzio>=0.9.0",
-	"lemock>=0.6",
-	"oil>=0.5",
-	"alien>=0.4.1",
-	"luacurl>=1.0",
-	"metalua>=0.5",
-	"librs232>=1.0.0",
-	"luarocks>=2.0.2",
+  "luasql-mysql>=2.1",
+  "luaunit>=1.3",
+  "luazip>=1.2.3",
+  "lua-stdlib>=15",
+  "lrexlib>=2.2",
+  "md5>=1.1.2",
+  "copas>=1.1.5",
+  "coxpcall>=1.13",
+  "rings>=1.2.2",
+  "loop>=2.3beta",
+  "luatask>=1.6.4",
+  "vstruct>=1.0.2",
+  "luabitop>=1.0.1",
+  "luaxml>=1.3",
+  "lanes>=2.0.4",
+  "luagl>=1.3",
+  "penlight>=0.8.4",
+  "gzio>=0.9.0",
+  "lemock>=0.6",
+  "oil>=0.5",
+  "alien>=0.4.1",
+  "luacurl>=1.0",
+  "metalua>=0.5",
+  "librs232>=1.0.0",
+  "luarocks>=2.0.2",
 }
