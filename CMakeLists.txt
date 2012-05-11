@@ -6,7 +6,7 @@
 
 project ( batteries NONE )
 cmake_minimum_required ( VERSION 2.6 )
-include ( dist.cmake )
+include ( cmake/dist.cmake )
 
 # Just install the README
 install_doc ( README.md )
