@@ -5,7 +5,7 @@
 # Please note that the package source code is licensed under its own license.
 
 project ( batteries NONE )
-cmake_minimum_required ( VERSION 2.6 )
+cmake_minimum_required ( VERSION 2.8 )
 include ( cmake/dist.cmake )
 
 # Just install the README
