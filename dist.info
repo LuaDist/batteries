@@ -10,6 +10,7 @@ maintainer = "Peter Drahoš"
 url = "http://groups.google.com/group/luaforwindows"
 
 depends = {
+  "lua~>5.1",
 -- Platform Specific Modules
   Windows = {
     "luagd>=2.0.33r2",
