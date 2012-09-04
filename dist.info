@@ -1,7 +1,7 @@
 --- This file is part of LuaDist project
 
 name = "batteries"
-version = "0.9.6"
+version = "0.9.7"
 
 desc = "Lua Batteries. A meta package modeled after LuaForWindows distribution."
 author = "N/A"
@@ -55,13 +55,13 @@ depends = {
 --  "luasql-odbc>=2.1",         -- Fails on Linux (no unix-odbc in repo yet)
 
 -- Platform Specific Modules
---  Windows = {
+  Windows = {
 --    "luagd>=2.0.33r2",
 --    "luacom>=1.4",
---    "iuplua>=3.2.0",
---    "wxlua>=2.8.10.0",
+      "iup>=3.6",
+      "wxlua>=2.8.10.0",
 --    "luainterface>=1.5.3",     -- LuaInterface planned for 1.0 release
---  },
+  },
 
 --  Linux = {
 --    "iuplua>=3.2.0",
