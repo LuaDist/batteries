@@ -1,7 +1,7 @@
 --- This file is part of LuaDist project
 
 name = "batteries"
-version = "0.9.7"
+version = "0.9.8"
 
 desc = "Lua Batteries. A meta package modeled after LuaForWindows distribution."
 author = "N/A"
@@ -30,7 +30,9 @@ depends = {
   "luaunit>=1.3",
   "luazip>=1.2.3",
   "lua-stdlib>=15",
-  "lrexlib>=2.2",
+  "lrexlib-posix>=2.7.1",
+  "lrexlib-pcre>=2.7.1",
+  "lrexlib-oniguruma>=2.7.1",
   "md5>=1.1.2",
   "copas>=1.1.5",
   "coxpcall>=1.13",
