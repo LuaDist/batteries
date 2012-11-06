@@ -32,6 +32,7 @@ depends = {
   "lua-stdlib>=15",
   "lrexlib-posix>=2.7.1",
   "lrexlib-pcre>=2.7.1",
+  "lrexlib-tre>=2.7.1",
   "lrexlib-oniguruma>=2.7.1",
   "md5>=1.1.2",
   "copas>=1.1.5",
