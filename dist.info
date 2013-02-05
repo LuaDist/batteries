@@ -54,6 +54,7 @@ depends = {
   "metalua>=0.5",
   "librs232>=1.0.0",
   "luarocks>=2.0.2",
+--- Planned for 1.0 release
 --  "lua-apr>=0.22"             -- needs dependencies
 --  "luasql-odbc>=2.1",         -- Fails on Linux (no unix-odbc in repo yet)
 
@@ -63,11 +64,18 @@ depends = {
 --    "luacom>=1.4",
       "iup>=3.6",
       "wxlua>=2.8.10.0",
---    "luainterface>=1.5.3",     -- LuaInterface planned for 1.0 release
+      "zerobranestudio>=0.2",
+--    "luainterface>=1.5.3",
+  },  
+  Linux = {
+--  "iup>=3.6",
+--  "wxlua>=2.8.10.0",
+--  "zerobranestudio>=0.2",
   },
 
---  Linux = {
---    "iuplua>=3.2.0",
---    "wxlua>=2.8.10.0",
---  },
+  Darwin = {
+--  "iup>=3.6",
+--  "wxlua>=2.8.10.0",
+--  "zerobranestudio>=0.2",
+  }
 }
