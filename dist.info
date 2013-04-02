@@ -61,7 +61,7 @@ depends = {
 -- Platform Specific Modules
   Windows = {
 --    "luagd>=2.0.33r2",
---    "luacom>=1.4",
+      "luacom>=1.4.1",
       "iup>=3.6",
       "wxlua>=2.8.10.0",
       "zerobranestudio>=0.2",
